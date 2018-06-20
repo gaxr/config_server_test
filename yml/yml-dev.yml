@@ -1,0 +1,17 @@
+spring:
+  datasource:
+    oracle:
+      driver-class-name: oracle.jdbc.driver.OracleDriver
+      jdbc-url: jdbc:oracle:thin:@192.168.0.128:1521:xe
+      username: system
+      password: oracle
+    sqlserver:
+      driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
+      jdbc-url: jdbc:sqlserver://192.168.0.126:1433;DatabaseName=test
+      username: sa
+      password: 1qaz!QAZ
+    mysql:
+      driver-class-name: com.mysql.jdbc.Driver
+      jdbc-url: jdbc:mysql://localhost/dbgirl?characterEncoding=utf-8&useSSL=false
+      username: root
+      password: 1qaz!QAZ
